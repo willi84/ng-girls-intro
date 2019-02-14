@@ -1,0 +1,13 @@
+/* Add application styles & imports to this file! */
+
+html, body {
+    --light-main-color: #b0d2e5;
+    --dark-main-color: rgba(102,153,204, 0.4);
+    --darker-main-color: rgba(51,102,153, 0.9);
+    /* background: var(--light-main-color); */
+    font-size: 16px;
+    background-image: url('assets/lviv-2019.jpg');
+    margin: 0;
+    padding: 0;
+    font-family: K2D,Roboto, Arial, Verdana, sans-serif;
+}
