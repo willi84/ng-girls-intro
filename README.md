@@ -1,6 +1,8 @@
 # ng-girls-intro
 Introductions sample to Angular for ngGirls
 
+* Demo: https://willi84.github.io/ng-girls-intro/
+
 
 
 
