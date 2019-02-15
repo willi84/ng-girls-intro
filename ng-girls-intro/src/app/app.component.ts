@@ -9,7 +9,7 @@ import { PasswordComponent } from './password/password.component';
 })
 export class AppComponent {
 
-  title = 'Здравствуйте! Мене звати Ана.';
+  title = 'Привіт! Мене звати Аня.';
   email = '';
   password = '';
 
