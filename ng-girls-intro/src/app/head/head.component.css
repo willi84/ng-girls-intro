@@ -1,0 +1,27 @@
+/* SVG */
+@-moz-keyframes blink { 
+    0%  { ry: 5; }
+    49% { ry: 5; }
+    50% { ry: 0; }
+    51% { ry: 5; }
+  }
+  @-webkit-keyframes blink { 
+    0%  { ry: 5; }
+    49% { ry: 5; }
+    50% { ry: 0; }
+    51% { ry: 5; }
+  }
+  @keyframes blink { 
+    0%  { ry: 5; }
+    49% { ry: 5; }
+    50% { ry: 0; }
+    51% { ry: 5; }
+  }
+  .skin { fill: #eab38f; }
+  .eyes { fill: #1f1f1f; 
+    animation: blink 4s alternate infinite; -webkit-animation: blink 4s alternate infinite; -moz-animation: blink 4s alternate infinite;}
+  .hair { fill: #2f1b0d; }
+  .line { fill: none; stroke: #2f1b0d; stroke-width:2px; }
+  .arm, #mouth, #smile, .eyes, .hand, .eyebrow { transition: all 0.25s; }
+  
+  /* SVG */

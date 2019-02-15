@@ -1,0 +1,7 @@
+.skin { fill: #eab38f; }
+  .eyes { fill: #1f1f1f; 
+    animation: blink 4s alternate infinite; -webkit-animation: blink 4s alternate infinite; -moz-animation: blink 4s alternate infinite;}
+  .hair { fill: #2f1b0d; }
+  .line { fill: none; stroke: #2f1b0d; stroke-width:2px; }
+  .arm, #mouth, #smile, .eyes, .hand, .eyebrow { transition: all 0.25s; }
+  

@@ -1,18 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|K2D');
 
-
-
-html, body {
-  --light-main-color: #b0d2e5; /*rgba(204,238,255, 0.8);*/
-  --dark-main-color: rgba(102,153,204, 0.4);
-  --darker-main-color: rgba(51,102,153, 0.9);
-  
-  background: var(--light-main-color);
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
-  font-family: K2D,Roboto, Arial, Verdana, sans-serif;
-}
 
 form {
   display: inline-block;
@@ -163,6 +149,6 @@ footer {
 }
 
 .title{
-    /* color: var(--darker-main-color); */
+    color: var(--darker-main-color);
     text-align: center;
 }

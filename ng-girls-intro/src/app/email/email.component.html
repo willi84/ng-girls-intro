@@ -1,0 +1,7 @@
+<fieldset id="email-field" class="with-placeholder">
+    <legend>Email</legend>
+    <div>
+      <input (focus)="movingEyes($event)" (keyup)="movingEyes($event)" (blur)="resetEyesMouth($event)" #email type="email" name="email" id="email" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" required />
+      <div [ngClass]="{active: activeEmail}"  class="placeholder">e.g. username@example.com</div>
+    </div>
+  </fieldset>
